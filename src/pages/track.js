@@ -14,13 +14,13 @@ export const TRACK = gql`
         photo
       }
       thumbnail
-      length
+      durationInSeconds
       modulesCount
       numberOfViews
       modules {
         id
         title
-        length
+        durationInSeconds
       }
       description
     }
